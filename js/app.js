@@ -1,13 +1,8 @@
-var url ="https://api.valsoftware.cloud/AEF/MT2/v1.0/api/init/BD735972-C4B8-4DD6-9C40-8D4F66BD1176/Ammon?languageCode=FR";
+var url ="https://api.valsoftware.cloud/AEF/MT2/v1.0/api/ping";
 
-
-const data = {
-  "username": 'emnc_admin',
-  "password":"M8*k2^Z33qBG!4Bh%wx9d^X7^tir",
-};
 
 fetch("https://api.valsoftware.cloud/AEF/MT2/v1.0/api/init/BD735972-C4B8-4DD6-9C40-8D4F66BD1176/Ammon?languageCode=FR", {
-  method: 'POST',
+  method: 'GET',
   headers: {
     'Content-Type': 'application/json'
   },
