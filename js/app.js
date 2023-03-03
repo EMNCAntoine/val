@@ -1,7 +1,7 @@
 var url ="https://api.valsoftware.cloud/AEF/MT2/v1.0/api/ping";
 
 
-fetch("https://api.valsoftware.cloud/AEF/MT2/v1.0/api/init/BD735972-C4B8-4DD6-9C40-8D4F66BD1176/Ammon?languageCode=FR", {
+fetch(url, {
   method: 'GET',
   headers: {
     'Content-Type': 'application/json'
